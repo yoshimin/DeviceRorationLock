@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "YSBaseViewController.h"
 
-@interface YSViewController : UIViewController
+@interface YSViewController : YSBaseViewController <UIActionSheetDelegate, UIWebViewDelegate>
+
+- (id) initWithURL:(NSURL*)url;
 
 @end

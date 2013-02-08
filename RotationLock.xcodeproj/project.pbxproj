@@ -18,6 +18,13 @@
 		88AA0FFE16C5339100666CF8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88AA0FFD16C5339100666CF8 /* Default-568h@2x.png */; };
 		88AA100116C5339100666CF8 /* YSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AA100016C5339100666CF8 /* YSViewController.m */; };
 		88AA100416C5339100666CF8 /* YSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88AA100216C5339100666CF8 /* YSViewController.xib */; };
+		88AA100D16C5346400666CF8 /* YSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AA100C16C5346400666CF8 /* YSBaseViewController.m */; };
+		88AA101816C5365900666CF8 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 88AA101216C5365900666CF8 /* back.png */; };
+		88AA101916C5365900666CF8 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88AA101316C5365900666CF8 /* back@2x.png */; };
+		88AA101A16C5365900666CF8 /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 88AA101416C5365900666CF8 /* forward.png */; };
+		88AA101B16C5365900666CF8 /* forward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88AA101516C5365900666CF8 /* forward@2x.png */; };
+		88AA101C16C5365900666CF8 /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 88AA101616C5365900666CF8 /* lock.png */; };
+		88AA101D16C5365900666CF8 /* unlock.png in Resources */ = {isa = PBXBuildFile; fileRef = 88AA101716C5365900666CF8 /* unlock.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +44,14 @@
 		88AA0FFF16C5339100666CF8 /* YSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSViewController.h; sourceTree = "<group>"; };
 		88AA100016C5339100666CF8 /* YSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSViewController.m; sourceTree = "<group>"; };
 		88AA100316C5339100666CF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/YSViewController.xib; sourceTree = "<group>"; };
+		88AA100B16C5346400666CF8 /* YSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSBaseViewController.h; sourceTree = "<group>"; };
+		88AA100C16C5346400666CF8 /* YSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSBaseViewController.m; sourceTree = "<group>"; };
+		88AA101216C5365900666CF8 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		88AA101316C5365900666CF8 /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		88AA101416C5365900666CF8 /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward.png; sourceTree = "<group>"; };
+		88AA101516C5365900666CF8 /* forward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forward@2x.png"; sourceTree = "<group>"; };
+		88AA101616C5365900666CF8 /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock.png; sourceTree = "<group>"; };
+		88AA101716C5365900666CF8 /* unlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unlock.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +71,8 @@
 		88AA0FDB16C5339100666CF8 = {
 			isa = PBXGroup;
 			children = (
-				88AA0FED16C5339100666CF8 /* RotationLock */,
+				88AA0FED16C5339100666CF8 /* Classes */,
+				88AA101116C5365900666CF8 /* Resources */,
 				88AA0FE616C5339100666CF8 /* Frameworks */,
 				88AA0FE516C5339100666CF8 /* Products */,
 			);
@@ -80,22 +96,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		88AA0FED16C5339100666CF8 /* RotationLock */ = {
+		88AA0FED16C5339100666CF8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				88AA100A16C5346400666CF8 /* RotationLock */,
 				88AA0FF616C5339100666CF8 /* YSAppDelegate.h */,
 				88AA0FF716C5339100666CF8 /* YSAppDelegate.m */,
 				88AA0FFF16C5339100666CF8 /* YSViewController.h */,
 				88AA100016C5339100666CF8 /* YSViewController.m */,
-				88AA100216C5339100666CF8 /* YSViewController.xib */,
 				88AA0FEE16C5339100666CF8 /* Supporting Files */,
 			);
+			name = Classes;
 			path = RotationLock;
 			sourceTree = "<group>";
 		};
 		88AA0FEE16C5339100666CF8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				88AA100216C5339100666CF8 /* YSViewController.xib */,
 				88AA0FEF16C5339100666CF8 /* RotationLock-Info.plist */,
 				88AA0FF016C5339100666CF8 /* InfoPlist.strings */,
 				88AA0FF316C5339100666CF8 /* main.m */,
@@ -105,6 +123,29 @@
 				88AA0FFD16C5339100666CF8 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88AA100A16C5346400666CF8 /* RotationLock */ = {
+			isa = PBXGroup;
+			children = (
+				88AA100B16C5346400666CF8 /* YSBaseViewController.h */,
+				88AA100C16C5346400666CF8 /* YSBaseViewController.m */,
+			);
+			path = RotationLock;
+			sourceTree = "<group>";
+		};
+		88AA101116C5365900666CF8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				88AA101216C5365900666CF8 /* back.png */,
+				88AA101316C5365900666CF8 /* back@2x.png */,
+				88AA101416C5365900666CF8 /* forward.png */,
+				88AA101516C5365900666CF8 /* forward@2x.png */,
+				88AA101616C5365900666CF8 /* lock.png */,
+				88AA101716C5365900666CF8 /* unlock.png */,
+			);
+			name = Resources;
+			path = RotationLock/Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +205,12 @@
 				88AA0FFC16C5339100666CF8 /* Default@2x.png in Resources */,
 				88AA0FFE16C5339100666CF8 /* Default-568h@2x.png in Resources */,
 				88AA100416C5339100666CF8 /* YSViewController.xib in Resources */,
+				88AA101816C5365900666CF8 /* back.png in Resources */,
+				88AA101916C5365900666CF8 /* back@2x.png in Resources */,
+				88AA101A16C5365900666CF8 /* forward.png in Resources */,
+				88AA101B16C5365900666CF8 /* forward@2x.png in Resources */,
+				88AA101C16C5365900666CF8 /* lock.png in Resources */,
+				88AA101D16C5365900666CF8 /* unlock.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +224,7 @@
 				88AA0FF416C5339100666CF8 /* main.m in Sources */,
 				88AA0FF816C5339100666CF8 /* YSAppDelegate.m in Sources */,
 				88AA100116C5339100666CF8 /* YSViewController.m in Sources */,
+				88AA100D16C5346400666CF8 /* YSBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +312,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RotationLock/RotationLock-Prefix.pch";
 				INFOPLIST_FILE = "RotationLock/RotationLock-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -275,6 +324,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RotationLock/RotationLock-Prefix.pch";
 				INFOPLIST_FILE = "RotationLock/RotationLock-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

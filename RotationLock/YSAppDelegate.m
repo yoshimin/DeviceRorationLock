@@ -16,7 +16,7 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[YSViewController alloc] initWithNibName:@"YSViewController" bundle:nil];
+    self.viewController = [[YSViewController alloc] initWithURL:[NSURL URLWithString:@"http://www.apple.com/jp/"]];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
