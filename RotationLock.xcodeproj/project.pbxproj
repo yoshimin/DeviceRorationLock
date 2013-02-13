@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8845C12416CB8AED00CD6AB4 /* UINavigationController+AutoRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8845C12316CB8AED00CD6AB4 /* UINavigationController+AutoRotate.m */; };
 		88AA0FE816C5339100666CF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AA0FE716C5339100666CF8 /* UIKit.framework */; };
 		88AA0FEA16C5339100666CF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AA0FE916C5339100666CF8 /* Foundation.framework */; };
 		88AA0FEC16C5339100666CF8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AA0FEB16C5339100666CF8 /* CoreGraphics.framework */; };
@@ -28,6 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8845C12216CB8AED00CD6AB4 /* UINavigationController+AutoRotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+AutoRotate.h"; sourceTree = "<group>"; };
+		8845C12316CB8AED00CD6AB4 /* UINavigationController+AutoRotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+AutoRotate.m"; sourceTree = "<group>"; };
 		88AA0FE416C5339100666CF8 /* RotationLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotationLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88AA0FE716C5339100666CF8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		88AA0FE916C5339100666CF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -68,6 +71,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8845C12116CB8AED00CD6AB4 /* UINavigationController+AutoRotate */ = {
+			isa = PBXGroup;
+			children = (
+				8845C12216CB8AED00CD6AB4 /* UINavigationController+AutoRotate.h */,
+				8845C12316CB8AED00CD6AB4 /* UINavigationController+AutoRotate.m */,
+			);
+			path = "UINavigationController+AutoRotate";
+			sourceTree = "<group>";
+		};
 		88AA0FDB16C5339100666CF8 = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +140,7 @@
 		88AA100A16C5346400666CF8 /* RotationLock */ = {
 			isa = PBXGroup;
 			children = (
+				8845C12116CB8AED00CD6AB4 /* UINavigationController+AutoRotate */,
 				88AA100B16C5346400666CF8 /* YSBaseViewController.h */,
 				88AA100C16C5346400666CF8 /* YSBaseViewController.m */,
 			);
@@ -225,6 +238,7 @@
 				88AA0FF816C5339100666CF8 /* YSAppDelegate.m in Sources */,
 				88AA100116C5339100666CF8 /* YSViewController.m in Sources */,
 				88AA100D16C5346400666CF8 /* YSBaseViewController.m in Sources */,
+				8845C12416CB8AED00CD6AB4 /* UINavigationController+AutoRotate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +363,7 @@
 				88AA100916C5339100666CF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
